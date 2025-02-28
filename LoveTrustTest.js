@@ -57,3 +57,29 @@ export default function LoveTrustTest() {
     </div>
   );
 }
+import LoveTrustTest from "./LoveTrustTest";
+
+export default function Home() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <LoveTrustTest />
+    </div>
+  );
+}
+{
+  "name": "love-trust-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^13.0.0",
+    "framer-motion": "^10.12.16",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
